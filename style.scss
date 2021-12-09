@@ -1,0 +1,136 @@
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+  --p-size: 16px;
+}
+
+body {
+  background-color: var(--Pale-blue);
+  font-family: 'Red Hat Display', sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+  position: relative;
+  width: 340px;
+
+  img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .txt {
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+
+    h1 {
+      color: var(--Dark-blue);
+    }
+
+    p {
+      color: var(--Desaturated-blue);
+      font-size: var(--p-size);
+      padding: 0 10px 10px 10px;
+    }
+  }
+  .annual-plan {
+    background-color: var(--Very-pale-blue);
+    box-sizing: border-box;
+    display: flex;
+    align-items: initial;
+    border-radius: 10px;
+    margin: 0 20px;
+
+    img {
+      margin: 10px;
+    }
+
+    .item-and-price {
+      align-items: unset;
+      margin: 10px;
+
+      h3 {
+        color: var(--Dark-blue);
+        margin: 0 0 5px 0;
+        padding: 0;
+      }
+
+      p {
+        color: var(--Desaturated-blue);
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    p {
+      display: inline-block;
+      padding-top: 10px;
+      padding-left: 40px;
+
+      span {
+        color: var(--Bright-blue);
+        cursor: pointer;
+        text-decoration: underline;
+        font-weight: bold;
+      }
+
+      span:hover {
+        color: var(--procced-bg);
+        text-decoration: none;
+      }
+    }
+  }
+
+  .btn {
+    background-color: var(--Bright-blue);
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px 20px;
+
+    p {
+      color: #ffffff;
+      font-weight: bolder;
+      padding: 20px 0;
+      margin: 0;
+    }
+  }
+  .btn:hover {
+    background-color: var(--Dark-blue);
+  }
+  .cancle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    span {
+      color: var(--Desaturated-blue);
+      font-weight: bold;
+      text-align: center;
+    }
+
+    span {
+      text-align: center;
+    }
+  }
+
+  span:hover {
+    color: var(--Dark-blue);
+    cursor: pointer;
+  }
+}
