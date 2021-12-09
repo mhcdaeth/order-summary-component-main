@@ -12,7 +12,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 50px auto;
   display: flex;
   justify-content: center;
   align-items: center;
