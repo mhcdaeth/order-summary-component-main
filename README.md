@@ -10,10 +10,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -41,30 +39,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 - what i've learnt from this project is that when devloping web pages it has to be from ground up like it has to be writtened one by one and detaily.
 
--css have a virables to be called in the properties we give to the elements and the following has example  of it.
-
-
-```css
-:root {
-    --card-bg: hsl(216, 50%, 16%);
-    --bg-color: hsl(217, 54%, 11%);
-    --soft-blue: hsl(215, 51%, 70%);
-    --cyan: hsl(178, 100%, 50%);
-}
-
-body {
-    background-color: var(--bg-color);
-    box-sizing: border-box;
-    font-family: "Outfit", sans-serif;
-    min-height: 100vh;
-    margin: 30px 20px;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-```
-
 ### Useful resources
 
 - [MDN web Docs](https://developer.mozilla.org/en-US/) - This Helps me to refer codes and examples more detail way than others with live examples and other referances
@@ -75,7 +49,3 @@ body {
 - Website - [MHCDA](https://t.me/mhcdaeth)
 - Frontend Mentor - [@Mr-MHCDA](https://www.frontendmentor.io/profile/Mr-MHCDA)
 - Instagram - [@mhcdaeth](https://www.instagram.com/mhcdaeth)
-
-## Acknowledgments
-
-i'd like to thank #ISHIMWE Vainqueur from #Frontendmentor slack who helpd me relise the final part of how can i make the vew icon hover effect
